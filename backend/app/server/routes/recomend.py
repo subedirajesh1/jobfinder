@@ -38,7 +38,7 @@ tfidf_matrix = tfidf.fit_transform(job_data['content'])
 
 
 cosine_sim = cosine_similarity(tfidf_matrix)
-
+##required function!!!
 
 def get_job_recommendations(user_skills, cosine_sim, job_data):
   
